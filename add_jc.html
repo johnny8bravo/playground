@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<body>
+<!--Tech Bootcamp Assignment1-->
+<h1 style="background-color:Magenta;">A sample application to add 2 numbers</h2>
+
+<script>
+function myAddFunction(){
+var a,b,c;
+a=Number(document.getElementById("v1").value);
+b=Number(document.getElementById("v2").value);
+c= a + b;
+document.getElementById("sum").value= c;
+}
+</script>
+Enter the First number : <input id="v1">
+Enter the Second number: <input id="v2">
+<button onclick="myAddFunction()">Add Me</button>
+
+<input id="sum">
+</body>
+</html>
